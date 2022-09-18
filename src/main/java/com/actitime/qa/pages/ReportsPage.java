@@ -1,6 +1,7 @@
 package com.actitime.qa.pages;
 
 import com.actitime.qa.base.TestBase;
+import org.openqa.selenium.support.PageFactory;
 
 public class ReportsPage extends TestBase  {
 
@@ -9,7 +10,11 @@ public class ReportsPage extends TestBase  {
 	
 	
 	// Call init
+    public ReportsPage() {
+
+        PageFactory.initElements(driver, this);
+    }
 	
-	// Mathod
+	// Method
 	
 }

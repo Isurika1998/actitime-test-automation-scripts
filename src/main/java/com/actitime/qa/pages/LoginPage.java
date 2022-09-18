@@ -45,9 +45,6 @@ public class LoginPage extends TestBase {
 	public LoginPage() {
 		
 		PageFactory.initElements(driver, this);
-		
-		
-		
 	}
 	
 	//Action/Methods
