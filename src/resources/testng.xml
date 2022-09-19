@@ -3,7 +3,6 @@
 
 <suite name = "UCSC Test Automation Demo">
 
-
 <listeners>
 		<listener class-name="com.actitime.qa.extentreportlistener.ExtentReporterNG" />
 	</listeners>
@@ -12,8 +11,8 @@
       <classes>
          <class name = "com.actitime.qa.testcases.HomePageTest" />
          <class name = "com.actitime.qa.testcases.LoginPageTest" />
+          <class name = "com.actitime.qa.testcases.UserPageTest" />
       </classes>
    </test>
-
 
 </suite>
