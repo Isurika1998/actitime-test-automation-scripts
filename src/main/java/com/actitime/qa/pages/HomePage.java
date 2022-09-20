@@ -12,7 +12,13 @@ public class HomePage extends TestBase {
 
 	
 	//Page Factory - Object Repository
-	
+
+//	@FindBy(xpath = "//a[@class='content tt']")
+//	WebElement ttLink;
+
+	@FindBy(xpath = "//table[@id='tt-table']")
+	WebElement tt_Table;
+
 	@FindBy(xpath = "//a[@class='content tasks']")
 	WebElement taskLink;
 
@@ -37,6 +43,17 @@ public class HomePage extends TestBase {
 	public Boolean validateActiTimeLogo() {
 
 		return actitimeLogo.isDisplayed();
+	}
+
+//	public TimeTrackPage clickOnTimeTrackLink() {
+//
+//		ttLink.click();
+//		return new TimeTrackPage();
+//	}
+
+	public Boolean validateAttendanceTable() {
+
+		return tt_Table.isDisplayed();
 	}
 
 	public TasksPage clickOnTaskLink() {

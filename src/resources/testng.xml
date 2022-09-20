@@ -12,6 +12,7 @@
          <class name = "com.actitime.qa.testcases.HomePageTest" />
          <class name = "com.actitime.qa.testcases.LoginPageTest" />
           <class name = "com.actitime.qa.testcases.UserPageTest" />
+<!--          <class name = "com.actitime.qa.testcases.TimeTrackPageTest" />-->
       </classes>
    </test>
 

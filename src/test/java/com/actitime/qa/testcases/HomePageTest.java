@@ -33,6 +33,13 @@ public class HomePageTest extends TestBase {
         Assert.assertTrue(flag, "Cannot find the Logo");
     }
 
+    @Test(priority = 1)
+    public void usersPageAttendanceTest() {
+
+        boolean flag = homePage.validateAttendanceTable();
+        Assert.assertTrue(flag, "Cannot find the attendance table");
+    }
+
     @Test(priority = 2)
     public void homePageTaskLinkTest() {
 
