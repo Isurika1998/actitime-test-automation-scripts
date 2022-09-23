@@ -45,12 +45,6 @@ public class HomePage extends TestBase {
 		return actitimeLogo.isDisplayed();
 	}
 
-//	public TimeTrackPage clickOnTimeTrackLink() {
-//
-//		ttLink.click();
-//		return new TimeTrackPage();
-//	}
-
 	public Boolean validateAttendanceTable() {
 
 		return tt_Table.isDisplayed();

@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77182886-b9be-4a4f-972a-463a3363d008" name="Changes" comment="View employee profiles test scripts">
-      <change afterPath="$PROJECT_DIR$/screenshots/1663687408842.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/1663687717800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/1663687761221.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/1663688090083.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/1663688676026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/1663688677594.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/1663688679324.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actitime/qa/pages/TimeTrackPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/actitime/qa/testcases/TimeTrackPageTest.java" afterDir="false" />
+    <list default="true" id="77182886-b9be-4a4f-972a-463a3363d008" name="Changes" comment="Attendance test.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/actitime/qa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actitime/qa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actitime/qa/pages/TimeTrackPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actitime/qa/pages/TimeTrackPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actitime/qa/pages/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actitime/qa/pages/UsersPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/actitime/qa/testcases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/actitime/qa/testcases/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/actitime/qa/testcases/TimeTrackPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/actitime/qa/testcases/TimeTrackPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,16 +71,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/isurika/Projects/actitime-test-automation-scripts/src&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/isurika/Downloads/SQA-Assignment-master",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -197,7 +190,9 @@
       <workItem from="1663517157133" duration="6353000" />
       <workItem from="1663589837499" duration="7842000" />
       <workItem from="1663675306295" duration="1511000" />
-      <workItem from="1663686118101" duration="3370000" />
+      <workItem from="1663686118101" duration="3636000" />
+      <workItem from="1663869603779" duration="931000" />
+      <workItem from="1663911405561" duration="3075000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1663393096259</created>
@@ -220,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663598836035</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Attendance test.">
+      <created>1663692950210</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663692950210</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +270,7 @@
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Top nav link tests." />
     <MESSAGE value="View employee profiles test scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="View employee profiles test scripts" />
+    <MESSAGE value="Attendance test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Attendance test." />
   </component>
 </project>

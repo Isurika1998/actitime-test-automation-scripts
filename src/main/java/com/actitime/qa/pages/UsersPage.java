@@ -18,6 +18,9 @@ public class UsersPage extends TestBase  {
     @FindBy(xpath = "//div[@class='edit_user_sliding_panel sliding_panel components_panelContainer']")
     WebElement userInfoPanel;
 
+    @FindBy(xpath = "//a[@class='content tt']")
+    WebElement timeTrackLink;
+
     @FindBy(xpath = "//div[@id='logo_aT']")
     WebElement actitimeLogo;
 
@@ -33,10 +36,13 @@ public class UsersPage extends TestBase  {
 
     public Boolean validateViewEmployeeProfiles() {
 
-//        if (userTable.isDisplayed()){
             userNameContent.click();
             return userInfoPanel.isDisplayed();
-//        }
+    }
+
+    public TimeTrackPage clickOnTimeTrackLink() {
+        timeTrackLink.click();
+        return new TimeTrackPage();
     }
 
 }
